@@ -64,7 +64,7 @@ This project aims to analyze and visualize the dynamics of transactions, user en
 ## 📁 Folder Structure
 
 # Project Folder Structure
-
+"""
 phonepe_pulse_data/
 ├── Pulse/
 │ └── data/
@@ -85,7 +85,7 @@ phonepe_pulse_data/
 │ └── main.py # Scripts to load processed data into MySQL
 ├── ppt/ # This folder contains the PowerPoint presentation files related to the project
 └── README.md # The main README file containing the project documentation
-
+"""
 
 ---
 
