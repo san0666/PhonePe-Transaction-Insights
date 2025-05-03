@@ -65,24 +65,24 @@ This project aims to analyze and visualize the dynamics of transactions, user en
 
 phonepe_pulse_data/
 ├── Pulse/
-│ └── data/
-│ ├── aggregated/ # Contains aggregated transaction, user, and insurance data
-│ ├── map/ # Contains map-level data (state & district)
-│ └── top/ # Contains top-performing states, districts, and pin codes
+│   └── data/
+│       ├── aggregated/         # Contains aggregated transaction, user, and insurance data
+│       ├── map/                # Contains map-level data (state & district)
+│       └── top/                # Contains top-performing states, districts, and pin codes
 ├── data_scripts/
-│ └── Aggregated scripts # Scripts to convert JSON data into CSV format
-│ └── map_scripts/ # Scripts for processing map data
-│ └── top_scripts/ # Scripts for processing top-performing data
+│   ├── Aggregated_scripts/    # Scripts to convert JSON data into CSV format
+│   ├── map_scripts/           # Scripts for processing map data
+│   └── top_scripts/           # Scripts for processing top-performing data
 ├── dataviz_SQL/
-| └──chart_queries # visualizing each cases
-│ └── sql_queries/ # SQL queries to interact with the MySQL database
-│ └── scripts/ # Data analysis scripts
-│ └── visuals/ # Data visualization scripts
-| └── Dashboard.py # Streamlit app for interactive data visualization
+│   ├── chart_queries/         # Visualizing each case study
+│   ├── sql_queries/           # SQL queries to interact with the MySQL database
+│   ├── scripts/               # Data analysis scripts
+│   └── visuals/               # Data visualization scripts
+│   └── Dashboard.py           # Streamlit app for interactive data visualization
 ├── load_to_mysql/
-| └── main.py # Scripts to load processed data into MySQL
-|__ppt # This folder contains the PowerPoint presentation files related to the project PhonePe Transaction Insights. The presentation highlights key business insights, visualizations, and analyses derived from the case studies.
-
+│   └── main.py                # Scripts to load processed data into MySQL
+├── ppt/                       # This folder contains the PowerPoint presentation files related to the project
+└── README.md                  # The main README file containing the project documentation
 
 
 ---
