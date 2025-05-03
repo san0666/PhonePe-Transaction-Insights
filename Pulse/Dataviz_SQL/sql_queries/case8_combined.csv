@@ -1,0 +1,31 @@
+state,total_registrations,query,district,pin_code
+maharashtra,260352662.0,Query 1,,
+uttar pradesh,209605748.0,Query 1,,
+karnataka,167646665.0,Query 1,,
+andhra pradesh,129937785.0,Query 1,,
+rajasthan,126100949.0,Query 1,,
+telangana,120772232.0,Query 1,,
+west bengal,118783360.0,Query 1,,
+tamil nadu,112377712.0,Query 1,,
+madhya pradesh,105856323.0,Query 1,,
+gujarat,104356069.0,Query 1,,
+,69950155.0,Query 2,bengaluru urban,
+,45449188.0,Query 2,pune,
+,28513825.0,Query 2,jaipur,
+,28184101.0,Query 2,thane,
+,27519268.0,Query 2,mumbai suburban,
+,23569082.0,Query 2,hyderabad,
+,21325978.0,Query 2,ahmadabad,
+,20534803.0,Query 2,rangareddy,
+,16002920.0,Query 2,north twenty four parganas,
+,15339548.0,Query 2,surat,
+,3917217.0,Query 3,,201301
+,3272951.0,Query 3,,110059
+,3055473.0,Query 3,,560068
+,2695183.0,Query 3,,500072
+,2603288.0,Query 3,,122001
+,2588758.0,Query 3,,110092
+,2565314.0,Query 3,,421302
+,2186104.0,Query 3,,110086
+,1767600.0,Query 3,,121004
+,1085954.0,Query 3,,560078

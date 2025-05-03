@@ -1,0 +1,45 @@
+import os
+import json
+import pandas as pd  # type: ignore
+
+top_user = []
+
+base_path = "Pulse/data/top/user/country/india"
+
+for year in os.listdir(base_path):
+    year_path = os.path.join(base_path, year)
+    if not os.path.isdir(year_path):
+        continue
+
+    for quarter_file in os.listdir(year_path):
+        if not quarter_file.endswith(".json"):
+            continue
+
+        quarter = quarter_file.strip(".json")
+        file_path = os.path.join(year_path, quarter_file)
+
+        with open(file_path, "r") as f:
+            data = json.load(f)
+
+        try:
+            # Combine all: states, districts, pincodes
+            for level_key in ["states", "districts", "pincodes"]:
+                for item in data["data"].get(level_key, []):
+                    top_user.append({
+                        "level": "country",
+                        "entity_type": level_key[:-1],  # state, district, pincode
+                        "entity_name": item["name"],
+                        "year": int(year),
+                        "quarter": int(quarter),
+                        "registered_users": item["registeredUsers"]
+                    })
+
+        except Exception as e:
+            print(f"Error in file {file_path}: {e}")
+            continue
+
+# Create a single DataFrame
+df_top_user = pd.DataFrame(top_user)
+
+# Preview the data
+print("All Top Users Combined:\n", df_top_user.head())

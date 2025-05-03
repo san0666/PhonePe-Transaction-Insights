@@ -1,0 +1,31 @@
+state,total_transactions,total_transaction_amount,query,district,pincode
+karnataka,117232.0,175704013.0,Query 1,,
+maharashtra,102754.0,157303399.0,Query 1,,
+tamil nadu,79698.0,105328191.0,Query 1,,
+uttar pradesh,74194.0,122522457.0,Query 1,,
+kerala,61032.0,100620604.0,Query 1,,
+telangana,55118.0,79238968.0,Query 1,,
+west bengal,49792.0,65204280.0,Query 1,,
+delhi,41358.0,54951108.0,Query 1,,
+haryana,40710.0,62186066.0,Query 1,,
+rajasthan,37170.0,61301449.0,Query 1,,
+,69812.0,99096628.0,Query 2,bengaluru urban,
+,25943.0,39373541.0,Query 2,pune,
+,15678.0,16453783.0,Query 2,chennai,
+,15403.0,20442020.0,Query 2,thane,
+,13998.0,20753771.0,Query 2,rangareddy,
+,12717.0,15575502.0,Query 2,mumbai suburban,
+,11833.0,17077694.0,Query 2,medchal malkajgiri,
+,11759.0,15891257.0,Query 2,gurugram,
+,11344.0,16436901.0,Query 2,jaipur,
+,10840.0,12569262.0,Query 2,thiruvallur,
+,3141.0,3959944.0,Query 3,,560068
+,2575.0,3376141.0,Query 3,,560037
+,2534.0,3686902.0,Query 3,,500072
+,2184.0,3330509.0,Query 3,,560076
+,2154.0,2955207.0,Query 3,,122001
+,2126.0,3158190.0,Query 3,,560043
+,2051.0,2883618.0,Query 3,,560078
+,1992.0,2418828.0,Query 3,,201301
+,1944.0,2581267.0,Query 3,,411057
+,1843.0,2510992.0,Query 3,,560100
