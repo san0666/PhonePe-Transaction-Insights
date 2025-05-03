@@ -44,8 +44,8 @@ phonepe_pulse_data/
 ├── dashboard/
 │   └── Dashboard.py           # Streamlit app for interactive data visualization
 └── ppt/
-    └── PhonePe_Transaction_Insights.pptx # PowerPoint presentation of the project
-
+    └── PhonePe_Transaction_Insights.pptx  # PowerPoint presentation of the project
+------
 📦 Installation & Setup 🛠️
 1. Clone the Repository 🔗
 To get started, clone the project to your local machine using:
@@ -62,37 +62,37 @@ cd dashboard
 streamlit run Dashboard.py
 This will start the dashboard in your default web browser.
 
-Project Features & Case Studies 📊
-Decoding Transaction Dynamics on PhonePe:
+"Project Features & Case Studies" 📊
+1.Decoding Transaction Dynamics on PhonePe:
 🏙️ Analyzes transaction behaviors across states, districts, and payment categories to provide actionable business insights.
 
-Device Dominance and User Engagement Analysis:
+2.Device Dominance and User Engagement Analysis:
 📱 Explores device preferences and app engagement across different regions to optimize user experience.
 
-Insurance Penetration and Growth Potential Analysis:
+3.Insurance Penetration and Growth Potential Analysis:
 🛡️ Identifies potential regions for expanding insurance offerings based on transaction and user data.
 
-Transaction Analysis for Market Expansion:
+4.Transaction Analysis for Market Expansion:
 🌍 Provides insights into transaction trends at the state level, revealing promising regions for market expansion.
 
-User Engagement and Growth Strategy:
+5.User Engagement and Growth Strategy:
 👥 Unveils user engagement patterns, helping to shape strategic decisions for improving market positioning.
 
-Insurance Engagement Analysis:
+6.Insurance Engagement Analysis:
 🔍 Offers insights into the uptake of insurance services and reveals opportunities for growth within the sector.
 
-Transaction Analysis Across States and Districts:
+7.Transaction Analysis Across States and Districts:
 📈 Identifies the top-performing regions (states, districts, and pin codes) based on transaction volume and value.
 
-User Registration Analysis:
+8.User Registration Analysis:
 📝 Identifies where the highest number of users are registering, helping to highlight areas for potential growth.
 
-Insurance Transactions Analysis:
+9.Insurance Transactions Analysis:
 📊 Analyzes insurance-related transactions to understand user engagement and strategic areas for improvement.
 
 📈 Interactive Dashboard 🔍:
 This project includes a Streamlit dashboard that allows for interactive data exploration. You can visualize transaction dynamics, insurance data, and user engagement, and drill down into specific states, districts, and time periods. The dashboard is built using Streamlit and integrates both transaction and insurance data, offering powerful visualizations and insights.
-
+-------
 🧑‍💻 Requirements
 Make sure you have the following installed:
 
@@ -101,23 +101,20 @@ Python 3.x (any version above 3.6)
 MySQL (for data storage)
 
 Streamlit (for building and running the dashboard)
-
+-----
 Required Libraries:
-Pandas
+*Pandas
 
-Matplotlib
+*Matplotlib
 
-Seaborn
+*Seaborn
 
-Streamlit
+*Streamlit
 
-MySQL Connector (for database interaction)
+*MySQL Connector (for database interaction)
 
-GeoJSON
-
-These dependencies are listed in requirements.txt, and can be installed using:
-pip install -r requirements.txt
-
+*GeoJSON
+-------
 🔒 License 📝
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
@@ -130,9 +127,6 @@ Contributions are always welcome! If you have any ideas or improvements, please 
 
 ✨ Acknowledgements 💡
 This project would not have been possible without the following resources:
-
-PhonePe Pulse Data
-
-Streamlit Documentation
-
-MySQL Documentation
+->PhonePe Pulse Data
+->Streamlit Documentation
+->MySQL Documentation
