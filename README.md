@@ -63,34 +63,34 @@ streamlit run Dashboard.py
 This will start the dashboard in your default web browser.
 
 Project Features & Case Studies 📊
-Decoding Transaction Dynamics on PhonePe
+Decoding Transaction Dynamics on PhonePe:
 🏙️ Analyzes transaction behaviors across states, districts, and payment categories to provide actionable business insights.
 
-Device Dominance and User Engagement Analysis
+Device Dominance and User Engagement Analysis:
 📱 Explores device preferences and app engagement across different regions to optimize user experience.
 
-Insurance Penetration and Growth Potential Analysis
+Insurance Penetration and Growth Potential Analysis:
 🛡️ Identifies potential regions for expanding insurance offerings based on transaction and user data.
 
-Transaction Analysis for Market Expansion
+Transaction Analysis for Market Expansion:
 🌍 Provides insights into transaction trends at the state level, revealing promising regions for market expansion.
 
-User Engagement and Growth Strategy
+User Engagement and Growth Strategy:
 👥 Unveils user engagement patterns, helping to shape strategic decisions for improving market positioning.
 
-Insurance Engagement Analysis
+Insurance Engagement Analysis:
 🔍 Offers insights into the uptake of insurance services and reveals opportunities for growth within the sector.
 
-Transaction Analysis Across States and Districts
+Transaction Analysis Across States and Districts:
 📈 Identifies the top-performing regions (states, districts, and pin codes) based on transaction volume and value.
 
-User Registration Analysis
+User Registration Analysis:
 📝 Identifies where the highest number of users are registering, helping to highlight areas for potential growth.
 
-Insurance Transactions Analysis
+Insurance Transactions Analysis:
 📊 Analyzes insurance-related transactions to understand user engagement and strategic areas for improvement.
 
-📈 Interactive Dashboard 🔍
+📈 Interactive Dashboard 🔍:
 This project includes a Streamlit dashboard that allows for interactive data exploration. You can visualize transaction dynamics, insurance data, and user engagement, and drill down into specific states, districts, and time periods. The dashboard is built using Streamlit and integrates both transaction and insurance data, offering powerful visualizations and insights.
 
 🧑‍💻 Requirements
