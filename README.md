@@ -62,8 +62,9 @@ Once the dependencies are installed, navigate to the dashboard directory and run
 cd dashboard
 streamlit run Dashboard.py
 This will start the dashboard in your default web browser.
-
+-------
 "Project Features & Case Studies" 📊
+
 1.Decoding Transaction Dynamics on PhonePe:
 🏙️ Analyzes transaction behaviors across states, districts, and payment categories to provide actionable business insights.
 
