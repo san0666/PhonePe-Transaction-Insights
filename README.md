@@ -45,6 +45,7 @@ phonepe_pulse_data/
 │   └── Dashboard.py           # Streamlit app for interactive data visualization
 └── ppt/
     └── PhonePe_Transaction_Insights.pptx  # PowerPoint presentation of the project
+    
 ------
 📦 Installation & Setup 🛠️
 1. Clone the Repository 🔗
@@ -92,6 +93,7 @@ This will start the dashboard in your default web browser.
 
 📈 Interactive Dashboard 🔍:
 This project includes a Streamlit dashboard that allows for interactive data exploration. You can visualize transaction dynamics, insurance data, and user engagement, and drill down into specific states, districts, and time periods. The dashboard is built using Streamlit and integrates both transaction and insurance data, offering powerful visualizations and insights.
+
 -------
 🧑‍💻 Requirements
 Make sure you have the following installed:
@@ -101,6 +103,7 @@ Python 3.x (any version above 3.6)
 MySQL (for data storage)
 
 Streamlit (for building and running the dashboard)
+
 -----
 Required Libraries:
 *Pandas
@@ -114,6 +117,7 @@ Required Libraries:
 *MySQL Connector (for database interaction)
 
 *GeoJSON
+
 -------
 🔒 License 📝
 This project is licensed under the MIT License. See the LICENSE file for more details.
